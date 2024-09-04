@@ -17,7 +17,9 @@ body{
     text-transform: uppercase;
 }
 
-h2{
+.h2{
+    font-family: sans-seri!important;
+    text-transform: capitalize;
     margin-top: 20px ;
     margin-bottom: 25px ;
     font-size: 50px;
@@ -75,10 +77,14 @@ header h1 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+h3{
+    text-align: start;
+    font-size: 20px;
+}
 
 /* Section styling */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 section h2 {
@@ -99,7 +105,7 @@ ul {
 /* image styling */
  
 img{
-    width: 300px;
+    width: 200px;
     height: auto;
     border: 2px solid #84f5ec;;
     border-radius:50% ;
@@ -109,9 +115,9 @@ img{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 20px 50px;
     background: #ffffff;
-    color: #333;
+    color: #5e5d5d;
     height: 400px;
     justify-content: center;
     border-radius: 5px;
@@ -126,9 +132,36 @@ img{
  }
 
 .images p{
-    text-align: start;
+    text-align: justify;
+}
+/* icon */
+.social-icon{
+    padding-top: 25px !important;
+    padding-bottom: 2px !important;
+    font-size: 30px !important;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
 }
 
+ .aa1{
+    text-decoration: none !important;
+    color: #1658ff;
+ }
+ .aa2{
+    text-decoration: none !important;
+    color: #007ade; 
+ }
+ .aa3{
+    text-decoration: none !important;
+    color: #0a5ac3; 
+ }
+ .aa4{
+    text-decoration: none !important;
+    color: #1bb2e5;
+ }
 footer{
     background: #333;
     color: #fff;
