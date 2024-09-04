@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcd4d4;
+}
+ a{
+    text-decoration: none;
+    color: #fff;
+ }
+/* header styling */
+.nav-container{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    margin-top: 20px ;
+    margin-bottom: 25px ;
+    font-size: 50px;
+}
+.nav-list{
+    color:  #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.nav-list li{
+    padding: 7px;
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+}
+.nav-list li::before{
+   content: '';
+   position: absolute;
+   transform: translate(50% -50%);
+   top: 100%;
+   width: 0;
+   height: 2px;
+   background-color: #f18930;
+   transition-duration: 0.5s;
+
+}
+.nav-list li:hover:before{
+    width: 90%;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content styling */
+.about-sec{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    
+}
+.hobby{
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+/* image styling */
+ 
+img{
+    width: 300px;
+    height: auto;
+    border: 2px solid #84f5ec;;
+    border-radius:50% ;
+}
+ .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background: #ffffff;
+    color: #333;
+    height: 400px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .images{
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+ }
+
+.images p{
+    text-align: start;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
